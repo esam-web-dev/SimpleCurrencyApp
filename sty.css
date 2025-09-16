@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #EEE;
+    margin: 0;
+}
+
+h1 {
+    padding: 20px;
+    margin: 0 0 20px ;
+    background-color: white;
+    text-align: center;
+}
+
+.container {
+margin: 20px auto;
+max-width: 600px;
+background-color: #DDD;
+padding: 20px;
+}
+
+.container input,
+.container select {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+}
+
+
+
+.container input:focus,
+.container select:focus {
+    outline: none;
+    box-shadow: 0 0 5px #333;
+}
+
+
+.container button {
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    width: 100%;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #0b91ff;
+    box-shadow: 0 0 5px #333;   
+}
